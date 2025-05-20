@@ -2,7 +2,7 @@ export default function handler(req, res) {
   res.status(200).json([
     {
       name: "Pi Day Bundle",
-      url: "https://paypal.com/your-link",
+      url: "https://www.paypal.com/ncp/payment/6PNN74X8EWHHN",
       description: "Pi Day 540",
       flow: "Possibility",
       price: 540.00,
@@ -11,7 +11,7 @@ export default function handler(req, res) {
     },
     {
       name: "Commercial Deposit",
-      url: "https://paypal.com/another-link",
+      url: "https://www.paypal.com/ncp/payment/3XMH5FQGG9CEC",
       description: "Tithe + Mastermind $800",
       flow: "Possibility",
       price: 800.00,
